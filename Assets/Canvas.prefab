@@ -442,7 +442,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.35
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -550,7 +550,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 99aa470c5d3c7f8428b9951d6fed3e26, type: 3}
   - {fileID: 21300000, guid: 8cc3d95cafe430e47a97b0c2737e036d, type: 3}
   - {fileID: 21300000, guid: 22d868036e6a84e40a6252472edd997f, type: 3}
-  - {fileID: 21300000, guid: 0db3a08cc0c33e446b33144de27cd6f8, type: 3}
+  - {fileID: 21300000, guid: be69eef68b6f250459d93a2c3e094b12, type: 3}
   - {fileID: 21300000, guid: 523ede3a513b04e42a22d8d13b9d46fa, type: 3}
   - {fileID: 21300000, guid: 4ab71dc866066254897c2697c818a777, type: 3}
   - {fileID: 21300000, guid: 1d213fe540be7e3459f51efff299363b, type: 3}
@@ -598,7 +598,8 @@ MonoBehaviour:
     Where''s your sense of adventure?'
   - "Blue: You moron! We are lost in the middle of this giant forest and we can\u2019t
     see where our homes are! Sense of adventure my ass!"
-  - 'Blue: Hey! Are you even listening?!'
+  - 'Blue: Hey! Are you even listening?! Maybe I''m the stupid one for trusting you
+    for so long.'
   - "Blue: What can we do to\u2026"
   - 'Blue: No...no...way...'
   - "Red: I mean, the answer is right in front of us! We\u2019ll go climb up that
@@ -651,7 +652,7 @@ MonoBehaviour:
   - "Kemal: I can\u2019t believe I have chosen to be friends with you."
   - "Mecnun: Anyway C\u2019mon in I\u2019ll turn the TV on. My mom has also left
     over some dolma, a piece of hunker begendi..."
-  - END (Press Alt + F4 to quit on PC)
+  - FIN. (Press Alt + F4 to quit on PC)
   introBG: {fileID: 0}
   currentPage: {fileID: 3105400383119782405}
   flash: {fileID: 3105400384657951742}
@@ -665,6 +666,7 @@ MonoBehaviour:
   talkBlip: {fileID: 8300000, guid: 1a91725ea07da5f44a6069980386e335, type: 3}
   shock: {fileID: 8300000, guid: 54d0d28dec1d29c479b45aefbc9503b0, type: 3}
   kidsPlaying: {fileID: 8300000, guid: 0a06f6f5b07b7cd48b671be315215df2, type: 3}
+  wompSound: {fileID: 8300000, guid: b353e39a8baf84348b7fcdf457c641d8, type: 3}
   textDisplay: {fileID: 3105400383995960506}
   fastForward: 0
   active: 0

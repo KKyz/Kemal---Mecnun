@@ -376,6 +376,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3105400383119782407, guid: 8a32ff3fc53e9ce44bc71299a3240b5a, type: 3}
+      propertyPath: m_AspectMode
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3105400383119782458, guid: 8a32ff3fc53e9ce44bc71299a3240b5a, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -386,6 +390,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3105400383119782458, guid: 8a32ff3fc53e9ce44bc71299a3240b5a, type: 3}
       propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105400383119782458, guid: 8a32ff3fc53e9ce44bc71299a3240b5a, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3105400383752497846, guid: 8a32ff3fc53e9ce44bc71299a3240b5a, type: 3}

@@ -12,7 +12,7 @@ public class Flipbook : MonoBehaviour
     public Image introBG, currentPage, flash;
     public GameObject overlay;
     public AudioSource sfxSource, bgmSource;
-    public AudioClip crack, weAre1, weAre2, pageSwipe, talkBlip, shock, kidsPlaying;
+    public AudioClip crack, weAre1, weAre2, pageSwipe, talkBlip, shock, kidsPlaying, wompSound;
     public TMP_Text textDisplay;
     public bool fastForward, active;
 
@@ -152,6 +152,7 @@ public class Flipbook : MonoBehaviour
                 break;
             case 29:
                 NextPage();
+                sfxSource.PlayOneShot(wompSound);
                 break;
             case 36:
                 NextPage();
